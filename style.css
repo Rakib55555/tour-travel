@@ -1,0 +1,72 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    margin: 0%;
+    padding: 0%;
+}
+.section1{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+.section2{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.section3{
+    background-image: url(img/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+#flex{
+    display: flex;
+    margin-bottom: 100px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.div1{
+    width: 50%;
+    text-align: justify;
+    padding: 5%;
+}
+.div1 img{
+    width: 500px;
+    border-radius: 100px;
+}
+.div2{
+    width: 70%;
+    text-align: justify;
+    padding: 5%;
+}
+.main-div{
+    display: flex;
+}
+.div4{
+    padding: 2%;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 50px rgb(4, 182, 253);
+    border-image: linear-gradient(blue, skyblue);
+    border-image-slice: 1;
+    border-left: solid 10px;
+}
+.name{
+    color: blue;
+}
+.baton{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(4, 182, 253), blue);
+    color: white;
+    padding: 10px 41px;
+    font-weight: 800;
+    border-radius: 10px;
+}
+footer p{
+    text-align: center;
+}
